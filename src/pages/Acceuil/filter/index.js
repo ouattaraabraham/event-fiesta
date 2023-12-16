@@ -37,7 +37,7 @@ const isOpen =()=>{
         </div>
 
         {/* filterGroupSelect lg: */} 
-        <div className='hidden lg:block w-[85%]'>
+        <div className='hidden lg:block w-[85%] '>
                   <Selecteds />
                  
         </div>

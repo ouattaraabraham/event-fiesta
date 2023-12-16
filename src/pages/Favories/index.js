@@ -1,5 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
+import { AiOutlineArrowLeft } from "react-icons/ai";
+
 // import {data} from '../../Data/index'
 import Card from './card'
 import ScrollToTop from '../../componant/scrollToTop';
@@ -15,7 +18,14 @@ function Index() {
      <ScrollToTop/>
     {/* header img de block  */}
      <div >
-      
+     <div>
+        <Link to="../">
+        <div className='flex items-center gap-2'>
+          <AiOutlineArrowLeft/>
+          retour
+        </div>
+        </Link>
+     </div>
         <h1 className='text-center text-lg bg-red-400 rounded-lg py-2	my-5'>Vos lieux favory</h1>
           <div className='relative  flex flex-col  sm:grid sm:gap-6 sm:grid-cols-2  lg:grid-cols-3 '>
          {

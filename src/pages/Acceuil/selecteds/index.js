@@ -5,6 +5,7 @@ import Selected from './selected'
 
 import {changeVille ,changeTEvent,changeQuartier ,changeTLieux,changeHebergement} from '../../../store/filterSlice'
 
+import {resetAllState} from '../../../store/filterSlice'
 
 // {selectedVille,handlerChangeVille,selectedTEvent,handlerChangeTEvent,selectedQuartier,handlerChangeQuartier,selectedTLieux,handlerChangeTLieux,selectedHebergement,handlerChangeHebergement}
 function FilterWrap() {
@@ -22,6 +23,11 @@ function FilterWrap() {
   // console.log("selectedHebergement :"+selectedHebergement.);
 
   const dispatch=useDispatch()
+  
+
+  const resetAllStates =()=>{
+    dispatch(resetAllState())
+  }
 
   const handlerChangeVille =(item)=>{
     dispatch(changeVille(item))
@@ -246,7 +252,7 @@ function FilterWrap() {
     
       
   return (
-    <div className='relative  flex flex-col gap-4 p-4 md:flex-row'>
+    <div className='relative  flex flex-col gap-4 py-4 md:flex-row px-3 lg:px-0'>
 
        <Selected NameSelect={'region'} data={villes} selected={selectedVille} handlerChange={handlerChangeVille}/>
 
@@ -258,7 +264,12 @@ function FilterWrap() {
      
         <Selected NameSelect={'Hebergement'} data={Hebergement} selected={selectedHebergement} handlerChange={handlerChangeHebergement}/>
        
-
+          {/* btn effacer */}
+          <div className='flex items-end	'>
+            <button onClick={resetAllStates}  className='hidden lg:block border-2 px-3 py-1 rounded-lg bg-red-500 hover:bg-white border-red-500'>
+                  Effacer
+            </button>
+          </div>
     </div>
   )
 }

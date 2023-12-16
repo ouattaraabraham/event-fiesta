@@ -29,7 +29,7 @@ const isOpen =()=>{
   return (
     <div className={`${style.divContainer}`}>
          {/* btnIsOpen */}
-         <div className='flex p-3 justify-between lg:hidden'>
+         <div className='flex  justify-between lg:hidden'>
               <button  onClick={propsMain.toggleFilter}  className={`${style.btn}`}>
                 <span><FcFilledFilter size={'16px'}/></span>Filter
               </button>
@@ -37,8 +37,9 @@ const isOpen =()=>{
         </div>
 
         {/* filterGroupSelect lg: */} 
-        <div className='hidden lg:block '>
+        <div className='hidden lg:block w-[85%]'>
                   <Selecteds />
+                 
         </div>
     
         {/* filterGroupSelect md: */}

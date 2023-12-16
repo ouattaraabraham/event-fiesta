@@ -12,6 +12,7 @@ export   const data =[
     prix:"400000",
     Type_de_Lieux:"Appartement",
     hebergement:"oui",
+    adapter:["Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:1,
@@ -24,6 +25,7 @@ export   const data =[
     prix:"600000",
     Type_de_Lieux:"Atelier",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:2,
@@ -36,6 +38,7 @@ export   const data =[
     prix:"800000",
     Type_de_Lieux:"Boutique",
     hebergement:"non",
+    adapter:["Mariage","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:3,
@@ -48,6 +51,7 @@ export   const data =[
     prix:"200000",
     Type_de_Lieux:"Cave",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:4,
@@ -60,6 +64,7 @@ export   const data =[
     prix:"500000",
     Type_de_Lieux:"Espace avec exterieur",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Soirée","Seminaire"]
       },
     {
     id:5,
@@ -72,6 +77,7 @@ export   const data =[
     prix:"700000",
     Type_de_Lieux:"Hotel",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:6,
@@ -84,6 +90,7 @@ export   const data =[
     prix:"1000000",
     Type_de_Lieux:"Jardin",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:7,
@@ -96,6 +103,7 @@ export   const data =[
     prix:"1500000",
     Type_de_Lieux:"restaurent",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:8,
@@ -108,6 +116,7 @@ export   const data =[
     prix:"900000",
     Type_de_Lieux:"loft",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
       },
     {
     id:9,
@@ -120,6 +129,7 @@ export   const data =[
     prix:"1100000",
     Type_de_Lieux:"Maison",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée",]
     },
     {
     id:10,
@@ -132,6 +142,7 @@ export   const data =[
     prix:"1200000",
     Type_de_Lieux:"Villa",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:11,
@@ -144,6 +155,7 @@ export   const data =[
     prix:"1800000",
     Type_de_Lieux:"Villa",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:12,
@@ -156,6 +168,7 @@ export   const data =[
     prix:"950000",
     Type_de_Lieux:"Villa",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
       },
     {
     id:13,
@@ -168,6 +181,7 @@ export   const data =[
     prix:"1180000",
     Type_de_Lieux:"Villa",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:14,
@@ -180,6 +194,7 @@ export   const data =[
     prix:"1600000",
     Type_de_Lieux:"Terrasse",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:15,
@@ -192,6 +207,7 @@ export   const data =[
     prix:"1400000",
     Type_de_Lieux:"Terrasse",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     
     {
@@ -205,6 +221,7 @@ export   const data =[
     prix:"500000",
     Type_de_Lieux:"Terrasse",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:17,
@@ -217,6 +234,7 @@ export   const data =[
     prix:"500000",
     Type_de_Lieux:"Terrasse",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Soirée","Seminaire"]
     },
     {
     id:18,
@@ -229,6 +247,7 @@ export   const data =[
     prix:"500000",
     Type_de_Lieux:"Terrasse",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     }, 
     //
   
@@ -243,6 +262,7 @@ export   const data =[
     prix:"400000",
     Type_de_Lieux:"Appartement",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:20,
@@ -255,6 +275,7 @@ export   const data =[
     prix:"600000",
     Type_de_Lieux:"Atelier",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:21,
@@ -267,6 +288,7 @@ export   const data =[
     prix:"800000",
     Type_de_Lieux:"Boutique",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:22,
@@ -279,6 +301,7 @@ export   const data =[
     prix:"200000",
     Type_de_Lieux:"Cave",
     hebergement:"oui",
+    adapter:["Mariage","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:23,
@@ -291,6 +314,7 @@ export   const data =[
     prix:"500000",
     Type_de_Lieux:"Espace avec exterieur",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
       },
     {
     id:24,
@@ -303,6 +327,7 @@ export   const data =[
     prix:"700000",
     Type_de_Lieux:"Hotel",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée"]
     },
     {
     id:25,
@@ -315,6 +340,7 @@ export   const data =[
     prix:"1000000",
     Type_de_Lieux:"Jardin",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:26,
@@ -327,6 +353,7 @@ export   const data =[
     prix:"1500000",
     Type_de_Lieux:"restaurent",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:27,
@@ -339,6 +366,7 @@ export   const data =[
     prix:"900000",
     Type_de_Lieux:"loft",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Soirée","Seminaire"]
       },
     {
     id:28,
@@ -351,6 +379,7 @@ export   const data =[
     prix:"1100000",
     Type_de_Lieux:"Maison",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:29,
@@ -363,6 +392,7 @@ export   const data =[
     prix:"1200000",
     Type_de_Lieux:"Villa",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:30,
@@ -375,6 +405,7 @@ export   const data =[
     prix:"1800000",
     Type_de_Lieux:"Villa",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:31,
@@ -387,6 +418,7 @@ export   const data =[
     prix:"950000",
     Type_de_Lieux:"Villa",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Seminaire"]
       },
     {
     id:32,
@@ -399,6 +431,7 @@ export   const data =[
     prix:"1180000",
     Type_de_Lieux:"Villa",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:33,
@@ -411,6 +444,7 @@ export   const data =[
     prix:"1600000",
     Type_de_Lieux:"Terrasse",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:34,
@@ -423,6 +457,7 @@ export   const data =[
     prix:"1400000",
     Type_de_Lieux:"Terrasse",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
       
   {
@@ -436,6 +471,7 @@ export   const data =[
     prix:"500000",
     Type_de_Lieux:"Terrasse",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
   },
   {
     id:36,
@@ -448,6 +484,7 @@ export   const data =[
     prix:"500000",
     Type_de_Lieux:"Terrasse",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
   },
   {
     id:37,
@@ -460,6 +497,7 @@ export   const data =[
     prix:"500000",
     Type_de_Lieux:"Terrasse",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée"]
   }, 
   //
 
@@ -474,6 +512,7 @@ export   const data =[
     prix:"500000",
     Type_de_Lieux:"Terrasse",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
   }, 
   //
 
@@ -488,6 +527,7 @@ export   const data =[
     prix:"400000",
     Type_de_Lieux:"Appartement",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée"]
     },
     {
     id:40,
@@ -500,6 +540,7 @@ export   const data =[
     prix:"600000",
     Type_de_Lieux:"Atelier",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:41,
@@ -512,6 +553,7 @@ export   const data =[
     prix:"800000",
     Type_de_Lieux:"Boutique",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:42,
@@ -524,6 +566,7 @@ export   const data =[
     prix:"200000",
     Type_de_Lieux:"Cave",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Soirée","Seminaire"]
     },
     {
     id:43,
@@ -536,6 +579,7 @@ export   const data =[
     prix:"500000",
     Type_de_Lieux:"Espace avec exterieur",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
       },
     {
     id:44,
@@ -548,6 +592,7 @@ export   const data =[
     prix:"700000",
     Type_de_Lieux:"Hotel",
     hebergement:"oui",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:45,
@@ -560,6 +605,7 @@ export   const data =[
     prix:"1000000",
     Type_de_Lieux:"Jardin",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },  
     {
     id:46,
@@ -572,6 +618,7 @@ export   const data =[
     prix:"1000000",
     Type_de_Lieux:"Jardin",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Soirée","Seminaire"]
     }, 
     {
     id:47,
@@ -584,6 +631,7 @@ export   const data =[
     prix:"1000000",
     Type_de_Lieux:"Jardin",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     }, 
     {
     id:48,
@@ -596,6 +644,7 @@ export   const data =[
     prix:"1000000",
     Type_de_Lieux:"Jardin",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:49,
@@ -608,6 +657,7 @@ export   const data =[
     prix:"1000000",
     Type_de_Lieux:"Jardin",
     hebergement:"non",
+    adapter:["Bateme","Anniversaire","Soirée","Seminaire"]
     },
     {
     id:50,
@@ -620,6 +670,7 @@ export   const data =[
     prix:"1000000",
     Type_de_Lieux:"Jardin",
     hebergement:"non",
+    adapter:["Mariage","Bateme","Anniversaire","Seminaire"]
     },
   
     ]

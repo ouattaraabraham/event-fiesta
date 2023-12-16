@@ -24,6 +24,7 @@ import {toggleLike} from '../../store/updDataSlider'
 
 
 function CardLieux({item,toggleFavory}) {
+  // console.log("item.adapter :"+item.adapter[1]);
 
   // const [btnLike , setBtnLike]=useState(false)
 
@@ -75,21 +76,21 @@ function CardLieux({item,toggleFavory}) {
  const [curentImgDetail, SetCurentImgDetail] =useState(0)
 
  const prevImgDetail=()=>{
-  const borne= curentImg===0 
-  const changeIndex=borne ? item.img.length-1 :curentImg-1
-  return SetCurentImg(changeIndex)
+  const borne= curentImgDetail===0 
+  const changeIndex=borne ? item.img.length-1 :curentImgDetail-1
+  return SetCurentImgDetail(changeIndex)
  }
  const nexImgDetail=()=>{
-  const borne= curentImg===item.img.length-1
-  const changeIndex=borne ? 0:curentImg+1
-  return SetCurentImg(changeIndex)
+  const borne= curentImgDetail===item.img.length-1
+  const changeIndex=borne ? 0:curentImgDetail+1
+  return SetCurentImgDetail(changeIndex)
 }
 
   return (
     <div>
     
      {/* wrpa-IMG */}
-      <div  className='relative h-[300px]'>
+      <div  className='relative '>
           <img onClick={handlerDetail}  className='w-full h-full object-cover rounded-xl' src={item.img[curentImg]} alt="" />
         {/* btn-left-right */}
         <button className='absolute max-w-max p-5 top-[45%]'>
@@ -143,9 +144,9 @@ function CardLieux({item,toggleFavory}) {
     {/* block detail */}
     {
         detail?(
-         <div className=' fixed top-0 left-0 flex flex-col w-full h-screen  z-50'>
+         <div className='bg-[#e9e9e9] fixed top-0 left-0 flex flex-col w-full h-screen  z-50'>
              {/*BtnClose */}
-          <div className='relative m-auto'>
+          <div className='relative mx-auto lg:m-auto'>
             <div className='bg-[#e9e9e9] relative w-full h-full lg:w-fit lg:h-fit   mx-auto '>
               {/* header */}
               <div className='bg-[#222324] text-white text-lg flex justify-between py-3 px-3 md:px-5 gap-x-3'>
@@ -163,11 +164,11 @@ function CardLieux({item,toggleFavory}) {
                 <AiOutlineClose/>
                 </button>
               </div>
-                {/* body */}
+                {/* body detail */}
               <div className='  overflow-y-scroll h-[83vh] lg:max-w-4xl lg:h-[360px] '>
                   {/* img */}
                   <div className=' relative m-auto md:max-w-lg lg:pt-4'>
-                      <img className='w-full h-full object-cover md:rounded-xl' src={item.img[curentImgDetail]} alt="" />
+                      <img className='w-full h-full object-cover md:rounded-xl' src={item.img[curentImgDetail]} alt="imageLieux" />
                       {/* btn-left-right */}
                       <button className='absolute max-w-max p-5 top-[45%]'>
                       <AiFillLeftCircle  onClick={prevImgDetail} size={30} className='m-3'/>
@@ -222,24 +223,24 @@ function CardLieux({item,toggleFavory}) {
                   </div>
 
                   <div>
-                    <p><span className='text-md'>a partie de</span> <span className='text-xl'>1500.000 fcfa</span></p>
+                    <p><span className='text-md'>a partie de</span> <span className='text-xl'>{item.prix} fcfa</span></p>
                   </div>
 
                   <div>
                     <p className='py-4 text-xl'>Lieux ideal pour</p>
                     <div className='flex flex-wrap gap-2 text-white'>
-                      <span className='px-4 py-2 rounded-xl bg-[#413f3f]'>Mariage</span>
-                      <span className='inline-block	 px-4 py-2 rounded-xl bg-[#413f3f]'>Bateme</span>
-                      <span className='inline-block	 px-4 py-2 rounded-xl bg-[#413f3f]'>Anniveraires</span>
-                      <span className='inline-block	 px-4 py-2 rounded-xl bg-[#413f3f]'>Réception</span>
-                      <span className='inline-block	 px-4 py-2 rounded-xl bg-[#413f3f]'>Réception</span>                    
+                    {
+                      item.adapter.map(item=>
+                        <span className='px-4 py-2 rounded-xl bg-[#413f3f]'>{item}</span>
+                      )                         
+                    }
                     </div>
                   </div>
                   </div>
               </div>
 
               <div className='flex justify-end pt-3 gap-x-3 pb-3 px-3'>
-                    <button onClick={()=>toggleFavory(item)}  className=' border-2 px-3 py-1 rounded-lg'>
+                    <button onClick={()=>toggleFavori(item)}  className=' border border-black px-3 py-1 rounded-lg'>
                       ajouter au favory
                     </button>
                     <button  className='bg-red-300 px-3  py-1 rounded-lg '>

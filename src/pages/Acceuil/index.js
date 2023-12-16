@@ -8,7 +8,7 @@ function Index() {
     <div name='acceuil'>
       {/* header */}
       <div className='w-full'>
-        <div className='text-white flex justify-center py-[70px] lg:py-[150px] bg-cover bg-center h-full w-full' style={{backgroundImage: bgImg}} >
+        <div className='text-white flex justify-center pt-[110px] pb-[60px] md:pt-[140px]  lg:py-[150px] bg-cover bg-center h-full w-full' style={{backgroundImage: bgImg}} >
            <div>Trouver les meilleurs lieux</div>
         </div>
       </div>

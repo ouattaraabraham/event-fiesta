@@ -14,8 +14,7 @@ function Layout() {
             <div className='grow'>
              <Outlet />
             </div>
-            {/* footer */}
-            <div>footer</div>    
+            {/* <div>footer</div>     */}
         </div>
   )
 }

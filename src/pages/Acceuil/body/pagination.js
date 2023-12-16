@@ -19,7 +19,7 @@ export default function Index({list,displayPrev,displayNex}){
     
 
    const handlerPage=(e)=>{
-    // window.scrollTo(0, 0);
+     window.scrollTo(0, 0);
 
     let curentPage=Number(page)
 
@@ -34,7 +34,7 @@ export default function Index({list,displayPrev,displayNex}){
     if(e.nextSelectedPage){
     setSearchParams(`page=${e.nextSelectedPage}`)
 
-    console.log("e :"+e.nextSelectedPage)
+    // console.log("e :"+e)
 
 
     }
@@ -76,7 +76,7 @@ return(
       nextLabel={<GrFormNext style={{ fontSize: 20}} />}
       nextClassName={displayNex?"item next ":"next-hidden"}
       breakLabel = "..." 
-      onClick={(e)=> handlerPage(e)}
+      onClick={(e)=> {handlerPage(e);console.log(e)}}
       pageRangeDisplayed = {5} 
       pageCount = {7} 
       previousClassName={displayPrev?"previous ":"previous-hidden"}

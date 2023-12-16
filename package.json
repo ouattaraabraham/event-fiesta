@@ -2,6 +2,7 @@
   "name": "found-places",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ouattaraabraham.github.io/event-fiesta/",
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
@@ -25,7 +26,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.0",
     "tailwindcss": "^3.3.6"
   }
 }

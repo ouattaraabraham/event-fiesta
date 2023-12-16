@@ -19,6 +19,7 @@ import ScrollToTop from '../../../componant/scrollToTop';
 import {fcUpdData} from '../../../store/updDataSlider'
 
 
+
 function Index() {
 
   const selectedVille= useSelector((state)=>state.filter.selectedVille)
@@ -158,37 +159,34 @@ const applyFilter=()=>{
   
   
   return (
-    <div name='body' className='px-4 lg:px-5 py-[24px]'>
+    <div name='body' className='px-4 pb-[24px] lg:px-5 lg:py-[24px]'>
      {/* header img de block  */}
      <ScrollToTop/>
       <div >
         <div>
           {/* Filter for filter Lieux */}
-          <div className='px-4 py-4 ' >
-            <div className='flex justify-between py-2 gap-2 items-center'>
+          <div className='px-1  py-6  lg:py-0 ' >
+            <div className='flex justify-between pb-6 lg:py-2 gap-2 items-center'>
                 <div>
                 <Filter style={style1}  propsMain={propsMain}/>
                 </div>
+                
                 {/* panier */}
-                <Link to="Favories">
-                  <div  className="relative lg:top-3 flex justify-between items-center  gap-1   px-2 py-[.8px]   border-[1.5px]  rounded-lg border-rose-600 ">
-                      <SlBasketLoaded size={25} className=' py-1 m-1'/>
-                      <span>{favorites.length}</span>
-                  </div>
-                </Link>
+                <div className='w-[12%]'>
+                  <Link to="Favories">
+                    <div  className="relative max-w-fit lg:top-3 flex justify-between items-center  gap-1   px-2 py-[.8px]   border-[1.5px]  rounded-lg border-rose-600 ">
+                        <SlBasketLoaded size={25} className=' py-1 m-1'/>
+                        <span>{favorites.length}</span>
+                    </div>
+                  </Link>
+                </div>
             </div>
-
-            {/* show block favory */}
-
-            {
-             
-            }
 
             {/* scroll to fixed Filter */}
             {
               
               show && !propsApp.active ?
-              ( <div className={`w-full fixed z-10 flex gap-2 items-center  justify-between  bg-white border-2 sm:py-1 px-4 left-0 ${!scrollValue?"top-0":"top-[4em] "}`}>
+              ( <div className={`w-full fixed z-10 flex gap-2 items-center  justify-between  bg-white border-2 py-2 lg:py-0 px-4 left-0 ${!scrollValue?"top-0":"top-[4em] "}`}>
                 <Filter style={style2}  propsMain={propsMain}/>
                 <Link to="Favories">
                   <div  className=" relative lg:top-3 px-2 py-[.8px] border-[1.5px] rounded-lg border-rose-600  flex gap-1 justify-between items-center  w-max">
@@ -200,7 +198,7 @@ const applyFilter=()=>{
             </div>):""
             }
             {/* lenght resultats map */}
-            <div className='py-5'>
+            <div className='px-1 lg:py-5'>
             <span>{UpData.length} résultats</span>
             </div>
           </div>

@@ -8,7 +8,7 @@ function Layout() {
   return (
         <div className=' w-full h-screen flex flex-col font-enraSlabVariable'>
             {/* Header */}
-            <div className='h-[65px] md:h-[75px] fixed w-full z-10 bg-white' >
+            <div className='shadow-navBar h-[60px] md:h-[65px] fixed w-full z-10 bg-white' >
               <NavBar/>
             </div>
             <div className='grow'>

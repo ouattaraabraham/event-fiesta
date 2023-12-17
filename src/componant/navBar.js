@@ -1,13 +1,17 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
+import logo from '../assets/logoEvent.png'
+
 function navBar() {
 
   return (
-    <div className=' w-full px-4 py-[24px] lg:px-10 my-auto' >
+    <div className=' w-full px-4  lg:px-10 my-auto' >
         <div className='flex justify-between md:text-lg'>
-         <div>Event fiesta</div>
-         <ul >
+        <div className='w-[4rem] '>
+          <img className='w-full ' src={logo} alt="logo" />
+        </div>
+         <ul className='flex items-center' >
             <li><NavLink to='/'>Acceuil</NavLink></li>
             {/* <li><NavLink to='/connexion'>Contacter</NavLink></li>                */}
          </ul>

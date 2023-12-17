@@ -266,7 +266,7 @@ function FilterWrap() {
        
           {/* btn effacer */}
           <div className='flex items-end	'>
-            <button onClick={resetAllStates}  className='hidden lg:block border-2 px-3 py-1 rounded-lg bg-red-500 hover:bg-white border-red-500'>
+            <button onClick={resetAllStates}  className='hidden lg:block border-2 px-3 py-1 rounded-lg  hover:bg-red-500'>
                   Effacer
             </button>
           </div>

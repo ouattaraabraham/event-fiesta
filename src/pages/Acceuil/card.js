@@ -144,12 +144,12 @@ function CardLieux({item,toggleFavory}) {
     {/* block detail */}
     {
         detail?(
-         <div className='bg-[#e9e9e9] fixed top-0 left-0 flex flex-col w-full h-screen  z-50'>
+         <div className=' fixed top-0 left-0 flex flex-col w-full h-screen  z-50'>
              {/*BtnClose */}
           <div className='relative mx-auto lg:m-auto'>
-            <div className='bg-[#e9e9e9] relative w-full h-full lg:w-fit lg:h-fit   mx-auto '>
+            <div className='bg-[#e9e9e9] relative w-full h-screen  lg:w-fit lg:h-fit   mx-auto '>
               {/* header */}
-              <div className='bg-[#222324] text-white text-lg flex justify-between py-3 px-3 md:px-5 gap-x-3'>
+              <div className=' bg-[#f0f8ff] text-lg flex justify-between py-3 px-3 md:px-5 gap-x-3'>
                 <div>
                   <div className='pl-1 flex gap-2'>
                       <span>salle-{item.id}</span>
@@ -165,7 +165,7 @@ function CardLieux({item,toggleFavory}) {
                 </button>
               </div>
                 {/* body detail */}
-              <div className='  overflow-y-scroll h-[83vh] lg:max-w-4xl lg:h-[360px] '>
+              <div className='  overflow-y-scroll h-[81vh]  lg:max-w-4xl lg:h-[430px] '>
                   {/* img */}
                   <div className=' relative m-auto md:max-w-lg lg:pt-4'>
                       <img className='w-full h-full object-cover md:rounded-xl' src={item.img[curentImgDetail]} alt="imageLieux" />
@@ -188,7 +188,7 @@ function CardLieux({item,toggleFavory}) {
                   </div>
 
                   {/* txt */}
-                  <div className="px-3 md:px-5 ">
+                  <div  className="px-3 md:px-5 pb-10 lg:pb-24">
 
                   <div >
                       <div className={`${heightTxt} overflow-hidden`}>
@@ -238,14 +238,16 @@ function CardLieux({item,toggleFavory}) {
                   </div>
                   </div>
               </div>
-
-              <div className='flex justify-end pt-3 gap-x-3 pb-3 px-3'>
-                    <button onClick={()=>toggleFavori(item)}  className=' border border-black px-3 py-1 rounded-lg'>
+              {/* footer-detail */}
+              <div className='bg-[#f0f8ff]  absolute w-full bottom-0 py-4 flex items-center justify-center md:justify-end '>
+                <div className=' flex flex-wrap  justify-center md:justify-end px-2  gap-3 '>
+                    <span onClick={()=>toggleFavori(item)}  className=' border border-black px-3 py-1 rounded-lg'>
                       ajouter au favory
-                    </button>
-                    <button  className='bg-red-300 px-3  py-1 rounded-lg '>
+                    </span>
+                    <span  className='bg-red-300 px-3  py-1 rounded-lg '>
                        Demande devis
-                     </button>
+                    </span>
+                </div>     
               </div>
             </div> 
           </div> 

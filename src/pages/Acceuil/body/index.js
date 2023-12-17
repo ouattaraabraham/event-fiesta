@@ -172,10 +172,12 @@ const applyFilter=()=>{
                 </div>
                 
                 {/* panier */}
-                <div className='w-[12%]'>
+                <div className=''>
                   <Link to="Favories">
-                    <div  className="relative max-w-fit lg:top-3 flex justify-between items-center  gap-1   px-2 py-[.8px]   border-[1.5px]  rounded-lg border-rose-600 ">
-                        <SlBasketLoaded size={25} className=' py-1 m-1'/>
+                    <div  className="relative max-w-fit lg:top-3 flex justify-between items-center  gap-1   px-2 py-[.8px]   border-[1.5px]  rounded-lg border-rose-500 ">
+                        <span>
+                          <SlBasketLoaded size={25} className=' py-1 m-1'/>
+                        </span>
                         <span>{favorites.length}</span>
                     </div>
                   </Link>

@@ -1,10 +1,30 @@
 
 
+import salle1 from "../assets/salle-1.jpg"
+import salle2 from "../assets/salle-2.jpg"
+import salle3 from "../assets/salle-3.jpg"
+import salle4 from "../assets/salle-4.jpg"
+import salle5 from "../assets/salle-5.jpg"
+import salle6 from "../assets/salle-6.jpg"
+import salle7 from "../assets/salle-7.jpg"
+import salle8 from "../assets/salle-8.jpg"
+import salle9 from "../assets/salle-9.jpg"
+import salle10 from "../assets/salle-10.jpg"
+import salle11 from "../assets/salle-11.jpg"
+import salle12 from "../assets/salle-12.jpg"
+import salle13 from "../assets/salle-13.jpg"
+import salle14 from "../assets/salle-14.jpg"
+import salle15 from "../assets/salle-15.jpg"
+import salle16 from "../assets/salle-16.jpg"
+
+
+
+
 export   const data =[
     {
     id:0,
     like:false,
-    img:["../../salle-1.jpg","../../salle-12.jpg","../../salle-11.jpg","../../fleur.jpg"],
+    img:[salle1,salle2,salle3,salle4],
     ville:"Abidjan",
     quartier:"Assinie",
     evenement:"Annivaisere",
@@ -17,7 +37,7 @@ export   const data =[
     {
     id:1,
     like:false,
-    img:["../../salle-2.jpg","../../salle-15.jpg","../../salle-11.jpg","../../fleur.jpg"],
+    img:[salle5,salle6,salle7,salle8],
     ville:"Abidjan",
     quartier:"Assinie",
     evenement:"Mariage",
@@ -30,7 +50,7 @@ export   const data =[
     {
     id:2,
     like:false,
-    img:["../../salle-3.jpg","../../salle-14.jpg","../../salle-12.jpg","../../fleur.jpg"],
+    img:[salle9,salle10,salle11,salle12],
     ville:"Abidjan",
     quartier:"Abobo",
     evenement:"Soirée Privée",
@@ -43,7 +63,7 @@ export   const data =[
     {
     id:3,
     like:false,
-    img:["../../salle-4.jpg","../../salle-13.jpg","../../salle-11.jpg","../../salle-1.jpg"],
+    img:[salle13,salle14,salle15,salle16],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Entreprise",
@@ -56,7 +76,7 @@ export   const data =[
     {
     id:4,
     like:false,
-    img:["../../salle-5.jpg","../../salle-12.jpg","../../salle-14.jpg","../../salle-6.jpg"],
+    img:[salle7,salle2,salle3,salle4],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Annivaisere",
@@ -69,7 +89,7 @@ export   const data =[
     {
     id:5,
     like:false,
-    img:["../../salle-6.jpg","../../salle-11.jpg","../../salle-15.jpg","../../salle-5.jpg"],
+    img:[salle8,salle2,salle3,salle4],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Mariage",
@@ -82,7 +102,7 @@ export   const data =[
     {
     id:6,
     like:false,
-    img:["../../salle-7.jpg","../../salle-10.jpg","../../salle-9.jpg","../../salle-7.jpg"],
+    img:[salle9,salle2,salle3,salle4],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",
@@ -95,7 +115,7 @@ export   const data =[
     {
     id:7,
     like:false,
-    img:["../../salle-1.jpg","../../salle-9.jpg","../../salle-11.jpg","../../salle-12.jpg"],
+    img:[salle10,salle2,salle3,salle4],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Entreprise",
@@ -108,7 +128,7 @@ export   const data =[
     {
     id:8,
     like:false,
-    img:["../../salle-9.jpg","../../salle-2.jpg","../../salle-7.jpg","../../salle-13.jpg"],
+    img:[salle11,salle2,salle3,salle4],
     ville:"Abidjan",
     quartier:"Koumassi",
     evenement:"Annivaisere",
@@ -121,7 +141,7 @@ export   const data =[
     {
     id:9,
     like:false,
-    img:["../../salle-10.jpg","../../salle-7.jpg","../../salle-6.jpg","../../fleur.jpg"],
+    img:[salle12,salle2,salle3,salle4],
     ville:"Abidjan",
     quartier:"Koumassi",
     evenement:"Mariage",
@@ -134,7 +154,7 @@ export   const data =[
     {
     id:10,
     like:false,
-    img:["../../salle-11.jpg","../../salle-6.jpg","../../salle-5.jpg","../../lieux.jpg"],
+    img:[salle13,salle2,salle3,salle4],
     ville:"Abidjan",
     quartier:"port-bouet",
     evenement:"Soirée Privée",
@@ -147,7 +167,7 @@ export   const data =[
     {
     id:11,
     like:false,
-    img:["../../salle-12.jpg","../../salle-5.jpg","../../salle-4.jpg","../../fleur.jpg"],
+    img:[salle14,salle2,salle3,salle16],
     ville:"Abidjan",
     quartier:"port-bouet",
     evenement:"Entreprise",
@@ -160,7 +180,7 @@ export   const data =[
     {
     id:12,
     like:false,
-    img:["../../salle-13.jpg","../../lieux1.jpg","../../salle-3.jpg","../../lieux.jpg"],
+    img:[salle15,salle2,salle16,salle5],
     ville:"Abidjan",
     quartier:"Marcory",
     evenement:"Annivaisere",
@@ -173,7 +193,7 @@ export   const data =[
     {
     id:13,
     like:false,
-    img:["../../salle-14.jpg","../../salle-4.jpg","../../salle-2.jpg","../../fleur.jpg"],
+    img:[salle16,salle2,salle3,salle4],
     ville:"Abidjan",
     quartier:"Bassam",
     evenement:"Mariage",
@@ -186,7 +206,7 @@ export   const data =[
     {
     id:14,
     like:false,
-    img:["../../salle-6.jpg","../../salle-3.jpg","../../salle-1.jpg","../../fleur.jpg"],
+    img:[salle1,salle2,salle3,salle6],
     ville:"Abidjan",
     quartier:"Plateau",
     evenement:"Soirée Privée",
@@ -199,7 +219,7 @@ export   const data =[
     {
     id:15,
     like:false,
-    img:["../../lieux.jpg","../../salle-2.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle1,salle5,salle3,salle16],
     ville:"Abidjan",
     quartier:"yopougon",
     evenement:"Entreprise",
@@ -213,7 +233,7 @@ export   const data =[
     {
     id:16,
     like:false,
-    img:["../../fleur.jpg","../../salle-1.jpg","../../fete1.jpg","../../lieux.jpg"],
+    img:[salle8,salle2,salle3,salle4],
     ville:"Bouaké",
     quartier:"baoulekro",
     evenement:"Mariage",
@@ -226,7 +246,7 @@ export   const data =[
     {
     id:17,
     like:false,
-    img:["../../fete1.jpg","../../lieux1.jpg","../../lieux.jpg","../../fleur.jpg"],
+    img:[salle1,salle16,salle3,salle4],
     ville:"Korogo",
     quartier:"korogobougou",
     evenement:"Soirée Privée",
@@ -239,7 +259,7 @@ export   const data =[
     {
     id:18,
     like:false,
-    img:["../../lieux1.jpg","../../lieux.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle7,salle2,salle3,salle4],
     ville:"Yamousokro",
     quartier:"koffikro",
     evenement:"Entreprise",
@@ -254,7 +274,7 @@ export   const data =[
     {
     id:19,
     like:false,
-    img:["../../lieux.jpg","../../lieux1.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle6,salle2,salle3,salle4],
     ville:"Abidjan",
     quartier:"Assinie",
     evenement:"Annivaisere",
@@ -267,7 +287,7 @@ export   const data =[
     {
     id:20,
     like:false,
-    img:["../../lieux1.jpg","../../lieux.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle5,salle2,salle16,salle4],
     ville:"Abidjan",
     quartier:"Assinie",
     evenement:"Mariage",
@@ -280,7 +300,7 @@ export   const data =[
     {
     id:21,
     like:false,
-    img:["../../fete1.jpg","../../lieux1.jpg","../../lieux.jpg","../../fleur.jpg"],
+    img:[salle4,salle2,salle3,salle4],
     ville:"Abidjan",
     quartier:"Abobo",
     evenement:"Soirée Privée",
@@ -293,7 +313,7 @@ export   const data =[
     {
     id:22,
     like:false,
-    img:["../../fleur.jpg","../../lieux1.jpg","../../fete1.jpg","../../lieux.jpg"],
+    img:[salle3,salle2,salle3,salle4],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Entreprise",
@@ -306,7 +326,7 @@ export   const data =[
     {
     id:23,
     like:false,
-    img:["../../lieux.jpg","../../lieux1.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle10,salle2,salle3,salle4],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Annivaisere",
@@ -319,7 +339,7 @@ export   const data =[
     {
     id:24,
     like:false,
-    img:["../../lieux1.jpg","../../lieux.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle11,salle2,salle5,salle9],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Mariage",
@@ -332,7 +352,7 @@ export   const data =[
     {
     id:25,
     like:false,
-    img:["../../fete1.jpg","../../lieux1.jpg","../../lieux.jpg","../../fleur.jpg"],
+    img:[salle12,salle2,salle5,salle6],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",
@@ -345,7 +365,7 @@ export   const data =[
     {
     id:26,
     like:false,
-    img:["../../fleur.jpg","../../lieux1.jpg","../../fete1.jpg","../../lieux.jpg"],
+    img:[salle13,salle12,salle7,salle4],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Entreprise",
@@ -358,7 +378,7 @@ export   const data =[
     {
     id:27,
     like:false,
-    img:["../../lieux.jpg","../../lieux1.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle5,salle3,salle9,salle1],
     ville:"Abidjan",
     quartier:"Koumassi",
     evenement:"Annivaisere",
@@ -371,7 +391,7 @@ export   const data =[
     {
     id:28,
     like:false,
-    img:["../../fete1.jpg","../../lieux1.jpg","../../lieux.jpg","../../fleur.jpg"],
+    img:[salle11,salle2,salle6,salle5],
     ville:"Abidjan",
     quartier:"Koumassi",
     evenement:"Mariage",
@@ -384,7 +404,7 @@ export   const data =[
     {
     id:29,
     like:false,
-    img:["../../fleur.jpg","../../lieux1.jpg","../../fete1.jpg","../../lieux.jpg"],
+    img:[salle10,salle12,salle14,salle16],
     ville:"Abidjan",
     quartier:"port-bouet",
     evenement:"Soirée Privée",
@@ -397,7 +417,7 @@ export   const data =[
     {
     id:30,
     like:false,
-    img:["../../lieux1.jpg","../../lieux.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle11,salle9,salle7,salle4],
     ville:"Abidjan",
     quartier:"port-bouet",
     evenement:"Entreprise",
@@ -410,7 +430,7 @@ export   const data =[
     {
     id:31,
     like:false,
-    img:["../../fleur.jpg","../../lieux1.jpg","../../salle-8.jpg","../../lieux.jpg"],
+    img:[salle9,salle2,salle8,salle5],
     ville:"Abidjan",
     quartier:"Marcory",
     evenement:"Annivaisere",
@@ -423,7 +443,7 @@ export   const data =[
     {
     id:32,
     like:false,
-    img:["../../lieux.jpg","../../lieux1.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle2,salle6,salle16,salle1],
     ville:"Abidjan",
     quartier:"Bassam",
     evenement:"Mariage",
@@ -436,7 +456,7 @@ export   const data =[
     {
     id:33,
     like:false,
-    img:["../../fete1.jpg","../../lieux1.jpg","../../lieux.jpg","../../fleur.jpg"],
+    img:[salle13,salle8,salle11,salle4],
     ville:"Abidjan",
     quartier:"Plateau",
     evenement:"Soirée Privée",
@@ -449,7 +469,7 @@ export   const data =[
     {
     id:34,
     like:false,
-    img:["../../lieux.jpg","../../lieux1.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle9,salle14,salle3,salle8],
     ville:"Abidjan",
     quartier:"yopougon",
     evenement:"Entreprise",
@@ -463,7 +483,7 @@ export   const data =[
   {
     id:35,
     like:false,
-    img:["../../fleur.jpg","../../lieux1.jpg","../../salle-5.jpg","../../lieux.jpg"],
+    img:[salle5,salle2,salle9,salle14],
     ville:"Bouaké",
     quartier:"baoulekro",
     evenement:"Mariage",
@@ -476,7 +496,7 @@ export   const data =[
   {
     id:36,
     like:false,
-    img:["../../fete1.jpg","../../lieux1.jpg","../../lieux.jpg","../../fleur.jpg"],
+    img:[salle15,salle5,salle7,salle4],
     ville:"Korogo",
     quartier:"korogobougou",
     evenement:"Soirée Privée",
@@ -489,7 +509,7 @@ export   const data =[
   {
     id:37,
     like:false,
-    img:["../../lieux1.jpg","../../lieux.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle14,salle12,salle3,salle8],
     ville:"Yamousokro",
     quartier:"koffikro",
     evenement:"Entreprise",
@@ -504,7 +524,7 @@ export   const data =[
   {
     id:38,
     like:false,
-    img:["../../lieux1.jpg","../../lieux.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle11,salle7,salle16,salle9],
     ville:"Yamousokro",
     quartier:"koffikro",
     evenement:"Entreprise",
@@ -519,7 +539,7 @@ export   const data =[
   {
     id:39,
     like:false,
-    img:["../../lieux.jpg","../../lieux1.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle3,salle2,salle5,salle6],
     ville:"Abidjan",
     quartier:"Assinie",
     evenement:"Annivaisere",
@@ -532,7 +552,7 @@ export   const data =[
     {
     id:40,
     like:false,
-    img:["../../lieux1.jpg","../../lieux.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle7,salle8,salle9,salle16],
     ville:"Abidjan",
     quartier:"Assinie",
     evenement:"Mariage",
@@ -545,7 +565,7 @@ export   const data =[
     {
     id:41,
     like:false,
-    img:["../../fete1.jpg","../../lieux1.jpg","../../lieux.jpg","../../fleur.jpg"],
+    img:[salle10,salle14,salle6,salle5],
     ville:"Abidjan",
     quartier:"Abobo",
     evenement:"Soirée Privée",
@@ -558,7 +578,7 @@ export   const data =[
     {
     id:42,
     like:false,
-    img:["../../fleur.jpg","../../lieux1.jpg","../../fete1.jpg","../../lieux.jpg"],
+    img:[salle11,salle9,salle13,salle7],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Entreprise",
@@ -571,7 +591,7 @@ export   const data =[
     {
     id:43,
     like:false,
-    img:["../../lieux.jpg","../../lieux1.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle3,salle11,salle15,salle9],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Annivaisere",
@@ -584,7 +604,7 @@ export   const data =[
     {
     id:44,
     like:false,
-    img:["../../lieux1.jpg","../../lieux.jpg","../../fete1.jpg","../../fleur.jpg"],
+    img:[salle12,salle2,salle15,salle14],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Mariage",
@@ -597,7 +617,7 @@ export   const data =[
     {
     id:45,
     like:false,
-    img:["../../fete1.jpg","../../lieux1.jpg","../../lieux.jpg","../../fleur.jpg"],
+    img:[salle11,salle8,salle3,salle14],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",
@@ -610,7 +630,7 @@ export   const data =[
     {
     id:46,
     like:false,
-    img:["../../fete1.jpg","../../lieux1.jpg","../../lieux.jpg","../../fleur.jpg"],
+    img:[salle7,salle8,salle11,salle15],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",
@@ -623,7 +643,7 @@ export   const data =[
     {
     id:47,
     like:false,
-    img:["../../fete1.jpg","../../lieux1.jpg","../../lieux.jpg","../../fleur.jpg"],
+    img:[salle6,salle2,salle9,salle11],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",
@@ -636,7 +656,7 @@ export   const data =[
     {
     id:48,
     like:false,
-    img:["../../fete1.jpg","../../lieux1.jpg","../../lieux.jpg","../../fleur.jpg"],
+    img:[salle14,salle15,salle5,salle9],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",
@@ -649,7 +669,7 @@ export   const data =[
     {
     id:49,
     like:false,
-    img:["../../fete1.jpg","../../lieux1.jpg","../../lieux.jpg","../../fleur.jpg"],
+    img:[salle9,salle11,salle10,salle9],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",
@@ -662,7 +682,7 @@ export   const data =[
     {
     id:50,
     like:false,
-    img:["../../fete1.jpg","../../lieux1.jpg","../../lieux.jpg","../../fleur.jpg"],
+    img:[salle10,salle15,salle14,salle13],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",

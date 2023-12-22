@@ -90,13 +90,13 @@ function CardLieux({item,toggleFavory}) {
     <div>
     
      {/* wrpa-IMG */}
-      <div  className='relative '>
-          <img onClick={handlerDetail}  className='w-full h-full object-cover rounded-xl' src={item.img[curentImg]} alt="" />
+      <div  className='relative cursor-pointer'>
+          <img onClick={handlerDetail}  className='w-full h-full object-cover rounded-xl' src={item.img[curentImg]} alt="imageLieux" />
         {/* btn-left-right */}
-        <button className='absolute max-w-max p-5 top-[45%]'>
+        <button className='absolute max-w-max p-5 top-[35%]'>
         <AiFillLeftCircle  onClick={prevImg} size={30} className='m-3'/>
         </button>
-        <button className='absolute max-w-max  w-full  p-5 top-[45%] right-0'>
+        <button className='absolute max-w-max  w-full  p-5 top-[35%] right-0'>
         <AiFillRightCircle onClick={nexImg} size={30} className='m-3'/>
         </button>
         <div className='absolute w-full bottom-5 flex justify-center'>
@@ -111,24 +111,21 @@ function CardLieux({item,toggleFavory}) {
       </div>
 
      {/* wrap-text */}
-     <div className='px-4 pb-5 pt-3 flex flex-col gap-1'>
+     <div className='px-4 pb-5 pt-3 flex flex-col gap-1 cursor-default'>
      <ScrollToTop/>
         <div className='flex  justify-between items-center'>
           <h1 className='text-lg text-slate-900	'>salle-{item.id}</h1>
-        <div className='flex gap-4'>
+        <div className='flex gap-4 cursor-pointer'>
           <span><AiOutlineShareAlt size={23}/></span>
           <button onClick={()=>toggleFavori(item)}>
           {item.like?<AiFillHeart size={23} color="red"/>:<AiOutlineHeart size={23} color="red"/> }
           </button>
         </div>
        </div>
-       <NavLink className="max-w-max " to={`/lieux/${item.id}`}>
         <div className='flex items-center'>
          <TbPointFilled/> 
          <h3>Abidjan , {item.quartier}</h3>
         </div>
-        </NavLink>
-        <NavLink to={`/lieux/${item.id}`}>
         <div className='flex  justify-between items-center'>
         <h3> A partie de {item.prix}</h3>
         <div className='flex gap-4 items-center'>
@@ -136,7 +133,6 @@ function CardLieux({item,toggleFavory}) {
           <span><BsFillPeopleFill size={20}/></span>
         </div>
         </div>
-        </NavLink>
       </div>
        <div className="before:content-[''] w-36 h-[1px] mx-auto mb-9 mt-3 bg-slate-400 sm:hidden"> </div>
    

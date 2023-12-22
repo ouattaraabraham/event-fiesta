@@ -1,21 +1,21 @@
 
 
-import salle1 from "../assets/salle-1.jpg"
-import salle2 from "../assets/salle-2.jpg"
-import salle3 from "../assets/salle-3.jpg"
-import salle4 from "../assets/salle-4.jpg"
-import salle5 from "../assets/salle-5.jpg"
-import salle6 from "../assets/salle-6.jpg"
-import salle7 from "../assets/salle-7.jpg"
-import salle8 from "../assets/salle-8.jpg"
-import salle9 from "../assets/salle-9.jpg"
-import salle10 from "../assets/salle-10.jpg"
-import salle11 from "../assets/salle-11.jpg"
-import salle12 from "../assets/salle-12.jpg"
-import salle13 from "../assets/salle-13.jpg"
-import salle14 from "../assets/salle-14.jpg"
-import salle15 from "../assets/salle-15.jpg"
-import salle16 from "../assets/salle-16.jpg"
+import Salle1 from "./../assets/salle-1.jpg"
+import Salle2 from "./../assets/salle-2.jpg"
+import Salle3 from "./../assets/salle-3.jpg"
+import Salle4 from "./../assets/salle-4.jpg"
+import Salle5 from "./../assets/salle-5.jpg"
+import Salle6 from "./../assets/salle-6.jpg"
+import Salle7 from "./../assets/salle-7.jpg"
+import Salle8 from "./../assets/salle-8.jpg"
+import Salle9 from "./../assets/salle-9.jpg"
+import Salle10 from "./../assets/salle-10.jpg"
+import Salle11 from "./../assets/salle-11.jpg"
+import Salle12 from "./../assets/salle-12.jpg"
+import Salle13 from "./../assets/salle-13.jpg"
+import Salle14 from "./../assets/salle-14.jpg"
+import Salle15 from "./../assets/salle-15.jpg"
+import Salle16 from "./../assets/salle-16.jpg"
 
 
 
@@ -24,7 +24,7 @@ export   const data =[
     {
     id:0,
     like:false,
-    img:[salle1,salle2,salle3,salle4],
+    img:[Salle1,Salle2,Salle3,Salle4],
     ville:"Abidjan",
     quartier:"Assinie",
     evenement:"Annivaisere",
@@ -37,7 +37,7 @@ export   const data =[
     {
     id:1,
     like:false,
-    img:[salle5,salle6,salle7,salle8],
+    img:[Salle5,Salle6,Salle7,Salle8],
     ville:"Abidjan",
     quartier:"Assinie",
     evenement:"Mariage",
@@ -50,7 +50,7 @@ export   const data =[
     {
     id:2,
     like:false,
-    img:[salle9,salle10,salle11,salle12],
+    img:[Salle9,Salle10,Salle11,Salle12],
     ville:"Abidjan",
     quartier:"Abobo",
     evenement:"Soirée Privée",
@@ -63,7 +63,7 @@ export   const data =[
     {
     id:3,
     like:false,
-    img:[salle13,salle14,salle15,salle16],
+    img:[Salle13,Salle14,Salle15,Salle16],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Entreprise",
@@ -76,7 +76,7 @@ export   const data =[
     {
     id:4,
     like:false,
-    img:[salle7,salle2,salle3,salle4],
+    img:[Salle7,Salle2,Salle3,Salle4],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Annivaisere",
@@ -89,7 +89,7 @@ export   const data =[
     {
     id:5,
     like:false,
-    img:[salle8,salle2,salle3,salle4],
+    img:[Salle8,Salle2,Salle3,Salle4],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Mariage",
@@ -102,7 +102,7 @@ export   const data =[
     {
     id:6,
     like:false,
-    img:[salle9,salle2,salle3,salle4],
+    img:[Salle9,Salle2,Salle3,Salle4],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",
@@ -115,7 +115,7 @@ export   const data =[
     {
     id:7,
     like:false,
-    img:[salle10,salle2,salle3,salle4],
+    img:[Salle10,Salle2,Salle3,Salle4],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Entreprise",
@@ -128,7 +128,7 @@ export   const data =[
     {
     id:8,
     like:false,
-    img:[salle11,salle2,salle3,salle4],
+    img:[Salle11,Salle2,Salle3,Salle4],
     ville:"Abidjan",
     quartier:"Koumassi",
     evenement:"Annivaisere",
@@ -141,7 +141,7 @@ export   const data =[
     {
     id:9,
     like:false,
-    img:[salle12,salle2,salle3,salle4],
+    img:[Salle12,Salle2,Salle3,Salle4],
     ville:"Abidjan",
     quartier:"Koumassi",
     evenement:"Mariage",
@@ -154,7 +154,7 @@ export   const data =[
     {
     id:10,
     like:false,
-    img:[salle13,salle2,salle3,salle4],
+    img:[Salle13,Salle2,Salle3,Salle4],
     ville:"Abidjan",
     quartier:"port-bouet",
     evenement:"Soirée Privée",
@@ -167,7 +167,7 @@ export   const data =[
     {
     id:11,
     like:false,
-    img:[salle14,salle2,salle3,salle16],
+    img:[Salle14,Salle2,Salle3,Salle16],
     ville:"Abidjan",
     quartier:"port-bouet",
     evenement:"Entreprise",
@@ -180,7 +180,7 @@ export   const data =[
     {
     id:12,
     like:false,
-    img:[salle15,salle2,salle16,salle5],
+    img:[Salle15,Salle2,Salle16,Salle5],
     ville:"Abidjan",
     quartier:"Marcory",
     evenement:"Annivaisere",
@@ -193,7 +193,7 @@ export   const data =[
     {
     id:13,
     like:false,
-    img:[salle16,salle2,salle3,salle4],
+    img:[Salle16,Salle2,Salle3,Salle4],
     ville:"Abidjan",
     quartier:"Bassam",
     evenement:"Mariage",
@@ -206,7 +206,7 @@ export   const data =[
     {
     id:14,
     like:false,
-    img:[salle1,salle2,salle3,salle6],
+    img:[Salle1,Salle2,Salle3,Salle6],
     ville:"Abidjan",
     quartier:"Plateau",
     evenement:"Soirée Privée",
@@ -219,7 +219,7 @@ export   const data =[
     {
     id:15,
     like:false,
-    img:[salle1,salle5,salle3,salle16],
+    img:[Salle1,Salle5,Salle3,Salle16],
     ville:"Abidjan",
     quartier:"yopougon",
     evenement:"Entreprise",
@@ -233,7 +233,7 @@ export   const data =[
     {
     id:16,
     like:false,
-    img:[salle8,salle2,salle3,salle4],
+    img:[Salle8,Salle2,Salle3,Salle4],
     ville:"Bouaké",
     quartier:"baoulekro",
     evenement:"Mariage",
@@ -246,7 +246,7 @@ export   const data =[
     {
     id:17,
     like:false,
-    img:[salle1,salle16,salle3,salle4],
+    img:[Salle1,Salle16,Salle3,Salle4],
     ville:"Korogo",
     quartier:"korogobougou",
     evenement:"Soirée Privée",
@@ -259,7 +259,7 @@ export   const data =[
     {
     id:18,
     like:false,
-    img:[salle7,salle2,salle3,salle4],
+    img:[Salle7,Salle2,Salle3,Salle4],
     ville:"Yamousokro",
     quartier:"koffikro",
     evenement:"Entreprise",
@@ -274,7 +274,7 @@ export   const data =[
     {
     id:19,
     like:false,
-    img:[salle6,salle2,salle3,salle4],
+    img:[Salle6,Salle2,Salle3,Salle4],
     ville:"Abidjan",
     quartier:"Assinie",
     evenement:"Annivaisere",
@@ -287,7 +287,7 @@ export   const data =[
     {
     id:20,
     like:false,
-    img:[salle5,salle2,salle16,salle4],
+    img:[Salle5,Salle2,Salle16,Salle4],
     ville:"Abidjan",
     quartier:"Assinie",
     evenement:"Mariage",
@@ -300,7 +300,7 @@ export   const data =[
     {
     id:21,
     like:false,
-    img:[salle4,salle2,salle3,salle4],
+    img:[Salle4,Salle2,Salle3,Salle4],
     ville:"Abidjan",
     quartier:"Abobo",
     evenement:"Soirée Privée",
@@ -313,7 +313,7 @@ export   const data =[
     {
     id:22,
     like:false,
-    img:[salle3,salle2,salle3,salle4],
+    img:[Salle3,Salle2,Salle3,Salle4],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Entreprise",
@@ -326,7 +326,7 @@ export   const data =[
     {
     id:23,
     like:false,
-    img:[salle10,salle2,salle3,salle4],
+    img:[Salle10,Salle2,Salle3,Salle4],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Annivaisere",
@@ -339,7 +339,7 @@ export   const data =[
     {
     id:24,
     like:false,
-    img:[salle11,salle2,salle5,salle9],
+    img:[Salle11,Salle2,Salle5,Salle9],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Mariage",
@@ -352,7 +352,7 @@ export   const data =[
     {
     id:25,
     like:false,
-    img:[salle12,salle2,salle5,salle6],
+    img:[Salle12,Salle2,Salle5,Salle6],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",
@@ -365,7 +365,7 @@ export   const data =[
     {
     id:26,
     like:false,
-    img:[salle13,salle12,salle7,salle4],
+    img:[Salle13,Salle12,Salle7,Salle4],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Entreprise",
@@ -378,7 +378,7 @@ export   const data =[
     {
     id:27,
     like:false,
-    img:[salle5,salle3,salle9,salle1],
+    img:[Salle5,Salle3,Salle9,Salle1],
     ville:"Abidjan",
     quartier:"Koumassi",
     evenement:"Annivaisere",
@@ -391,7 +391,7 @@ export   const data =[
     {
     id:28,
     like:false,
-    img:[salle11,salle2,salle6,salle5],
+    img:[Salle11,Salle2,Salle6,Salle5],
     ville:"Abidjan",
     quartier:"Koumassi",
     evenement:"Mariage",
@@ -404,7 +404,7 @@ export   const data =[
     {
     id:29,
     like:false,
-    img:[salle10,salle12,salle14,salle16],
+    img:[Salle10,Salle12,Salle14,Salle16],
     ville:"Abidjan",
     quartier:"port-bouet",
     evenement:"Soirée Privée",
@@ -417,7 +417,7 @@ export   const data =[
     {
     id:30,
     like:false,
-    img:[salle11,salle9,salle7,salle4],
+    img:[Salle11,Salle9,Salle7,Salle4],
     ville:"Abidjan",
     quartier:"port-bouet",
     evenement:"Entreprise",
@@ -430,7 +430,7 @@ export   const data =[
     {
     id:31,
     like:false,
-    img:[salle9,salle2,salle8,salle5],
+    img:[Salle9,Salle2,Salle8,Salle5],
     ville:"Abidjan",
     quartier:"Marcory",
     evenement:"Annivaisere",
@@ -443,7 +443,7 @@ export   const data =[
     {
     id:32,
     like:false,
-    img:[salle2,salle6,salle16,salle1],
+    img:[Salle2,Salle6,Salle16,Salle1],
     ville:"Abidjan",
     quartier:"Bassam",
     evenement:"Mariage",
@@ -456,7 +456,7 @@ export   const data =[
     {
     id:33,
     like:false,
-    img:[salle13,salle8,salle11,salle4],
+    img:[Salle13,Salle8,Salle11,Salle4],
     ville:"Abidjan",
     quartier:"Plateau",
     evenement:"Soirée Privée",
@@ -469,7 +469,7 @@ export   const data =[
     {
     id:34,
     like:false,
-    img:[salle9,salle14,salle3,salle8],
+    img:[Salle9,Salle14,Salle3,Salle8],
     ville:"Abidjan",
     quartier:"yopougon",
     evenement:"Entreprise",
@@ -483,7 +483,7 @@ export   const data =[
   {
     id:35,
     like:false,
-    img:[salle5,salle2,salle9,salle14],
+    img:[Salle5,Salle2,Salle9,Salle14],
     ville:"Bouaké",
     quartier:"baoulekro",
     evenement:"Mariage",
@@ -496,7 +496,7 @@ export   const data =[
   {
     id:36,
     like:false,
-    img:[salle15,salle5,salle7,salle4],
+    img:[Salle15,Salle5,Salle7,Salle4],
     ville:"Korogo",
     quartier:"korogobougou",
     evenement:"Soirée Privée",
@@ -509,7 +509,7 @@ export   const data =[
   {
     id:37,
     like:false,
-    img:[salle14,salle12,salle3,salle8],
+    img:[Salle14,Salle12,Salle3,Salle8],
     ville:"Yamousokro",
     quartier:"koffikro",
     evenement:"Entreprise",
@@ -524,7 +524,7 @@ export   const data =[
   {
     id:38,
     like:false,
-    img:[salle11,salle7,salle16,salle9],
+    img:[Salle11,Salle7,Salle16,Salle9],
     ville:"Yamousokro",
     quartier:"koffikro",
     evenement:"Entreprise",
@@ -539,7 +539,7 @@ export   const data =[
   {
     id:39,
     like:false,
-    img:[salle3,salle2,salle5,salle6],
+    img:[Salle3,Salle2,Salle5,Salle6],
     ville:"Abidjan",
     quartier:"Assinie",
     evenement:"Annivaisere",
@@ -552,7 +552,7 @@ export   const data =[
     {
     id:40,
     like:false,
-    img:[salle7,salle8,salle9,salle16],
+    img:[Salle7,Salle8,Salle9,Salle16],
     ville:"Abidjan",
     quartier:"Assinie",
     evenement:"Mariage",
@@ -565,7 +565,7 @@ export   const data =[
     {
     id:41,
     like:false,
-    img:[salle10,salle14,salle6,salle5],
+    img:[Salle10,Salle14,Salle6,Salle5],
     ville:"Abidjan",
     quartier:"Abobo",
     evenement:"Soirée Privée",
@@ -578,7 +578,7 @@ export   const data =[
     {
     id:42,
     like:false,
-    img:[salle11,salle9,salle13,salle7],
+    img:[Salle11,Salle9,Salle13,Salle7],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Entreprise",
@@ -591,7 +591,7 @@ export   const data =[
     {
     id:43,
     like:false,
-    img:[salle3,salle11,salle15,salle9],
+    img:[Salle3,Salle11,Salle15,Salle9],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Annivaisere",
@@ -604,7 +604,7 @@ export   const data =[
     {
     id:44,
     like:false,
-    img:[salle12,salle2,salle15,salle14],
+    img:[Salle12,Salle2,Salle15,Salle14],
     ville:"Abidjan",
     quartier:"Bingerville",
     evenement:"Mariage",
@@ -617,7 +617,7 @@ export   const data =[
     {
     id:45,
     like:false,
-    img:[salle11,salle8,salle3,salle14],
+    img:[Salle11,Salle8,Salle3,Salle14],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",
@@ -630,7 +630,7 @@ export   const data =[
     {
     id:46,
     like:false,
-    img:[salle7,salle8,salle11,salle15],
+    img:[Salle7,Salle8,Salle11,Salle15],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",
@@ -643,7 +643,7 @@ export   const data =[
     {
     id:47,
     like:false,
-    img:[salle6,salle2,salle9,salle11],
+    img:[Salle6,Salle2,Salle9,Salle11],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",
@@ -656,7 +656,7 @@ export   const data =[
     {
     id:48,
     like:false,
-    img:[salle14,salle15,salle5,salle9],
+    img:[Salle14,Salle15,Salle5,Salle9],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",
@@ -669,7 +669,7 @@ export   const data =[
     {
     id:49,
     like:false,
-    img:[salle9,salle11,salle10,salle9],
+    img:[Salle9,Salle11,Salle10,Salle9],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",
@@ -682,7 +682,7 @@ export   const data =[
     {
     id:50,
     like:false,
-    img:[salle10,salle15,salle14,salle13],
+    img:[Salle10,Salle15,Salle14,Salle13],
     ville:"Abidjan",
     quartier:"Cocody",
     evenement:"Soirée Privée",

@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/event-fiesta/static/css/main.e01d5281.css",
+    "main.js": "/event-fiesta/static/js/main.e2971629.js",
+    "static/js/787.fae80103.chunk.js": "/event-fiesta/static/js/787.fae80103.chunk.js",
+    "static/media/fete.jpg": "/event-fiesta/static/media/fete.d38d540c9b2a0025c2f9.jpg",
+    "static/media/salle4.jpg": "/event-fiesta/static/media/salle4.fbcbb70d00c1856472a4.jpg",
+    "static/media/salle8.jpg": "/event-fiesta/static/media/salle8.fbcbb70d00c1856472a4.jpg",
+    "static/media/salle11.jpg": "/event-fiesta/static/media/salle11.39f476c95d9a93b21c12.jpg",
+    "static/media/salle10.jpg": "/event-fiesta/static/media/salle10.abb76fac0bfece8a5c86.jpg",
+    "static/media/salle6.jpg": "/event-fiesta/static/media/salle6.8e74f6cb6b65e7b443f1.jpg",
+    "static/media/salle14.jpg": "/event-fiesta/static/media/salle14.18f424d0cf2a31e4df9a.jpg",
+    "static/media/salle12.jpg": "/event-fiesta/static/media/salle12.3a3a3926adad2451c546.jpg",
+    "static/media/salle16.jpg": "/event-fiesta/static/media/salle16.3a3a3926adad2451c546.jpg",
+    "static/media/salle5.jpg": "/event-fiesta/static/media/salle5.3a3a3926adad2451c546.jpg",
+    "static/media/salle13.jpg": "/event-fiesta/static/media/salle13.b3d20cb4d7d7aaa5e3c6.jpg",
+    "static/media/salle15.jpg": "/event-fiesta/static/media/salle15.dccfd85031624e83cc3e.jpg",
+    "static/media/salle1.jpg": "/event-fiesta/static/media/salle1.db5c8d028ded04c1c301.jpg",
+    "static/media/salle7.jpg": "/event-fiesta/static/media/salle7.81de15d7cb91b7831b22.jpg",
+    "static/media/salle3.jpg": "/event-fiesta/static/media/salle3.6bace826c6bf051f1e87.jpg",
+    "static/media/salle9.jpg": "/event-fiesta/static/media/salle9.9eb385dcaf17dcf1db45.jpg",
+    "static/media/salle2.jpg": "/event-fiesta/static/media/salle2.2266f3a2435ace22c467.jpg",
+    "index.html": "/event-fiesta/index.html",
+    "main.e01d5281.css.map": "/event-fiesta/static/css/main.e01d5281.css.map",
+    "main.e2971629.js.map": "/event-fiesta/static/js/main.e2971629.js.map",
+    "787.fae80103.chunk.js.map": "/event-fiesta/static/js/787.fae80103.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e01d5281.css",
+    "static/js/main.e2971629.js"
+  ]
+}
